@@ -1,10 +1,14 @@
 # react working
- -first open specific folder in visual studio
+  
+  -first open specific folder in visual studio
+ 
  -download nodejs in your system if needed
+ 
  -in terminal type  "npm i" 
         - it will dwonload specific  files automatically
         -after that in terminal type "npm run dev"
 
+ 
   -will display url to open the project
        -    http://localhost:5173/   
        -click on the above link +ctrl
