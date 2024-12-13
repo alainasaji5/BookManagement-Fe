@@ -128,7 +128,7 @@ function BookHome() {
                                         className="page-link"
                                         onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
                                     >
-                                        Previous
+                                        <i class="fa-solid fa-arrow-left"></i>
                                     </button>
                                 </li>
                                 {[...Array(totalPages).keys()].map((page) => (
@@ -149,7 +149,7 @@ function BookHome() {
                                         className="page-link"
                                         onClick={() => setCurrentPage((prev) => Math.min(prev + 1, totalPages))}
                                     >
-                                        Next
+                                        <i class="fa-solid fa-arrow-right"></i>
                                     </button>
                                 </li>
                             </ul>
