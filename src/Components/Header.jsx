@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 // Example: Import an external image or font-awesome CSS if required
 // import logo from './path-to-your-logo.svg';
@@ -15,8 +16,8 @@ function Header() {
         </a>
         <div className="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <a className="nav-link text-white" href="/"><i class="fa-solid fa-house me-1"></i> <span className='me-3'>Home</span>  </a>
-            <a className="nav-link text-white" href="/form"><i class="fa-solid fa-plus me-1"></i>Add Book</a>
+            <Link className="nav-link text-white"  to='/'><i class="fa-solid fa-house me-1"></i>Home</Link>
+            <Link className="nav-link text-white" to="/form"><i class="fa-solid fa-plus me-1"></i>Add Book</Link>
           </div>
         </div>
       </div>
