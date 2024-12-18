@@ -1,1 +1,0 @@
-export const BASE_URL="https://bookmanagement-mk1o.onrender.com"
