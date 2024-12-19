@@ -47,6 +47,10 @@ function BookHome() {
         textDecoration: 'none',
         color: hoveredBookId === bookId ? 'blue' : 'black',
     });
+    // console.log("jdshjds");
+    
+    // console.log("dhhd",`${BASE_URL}`);
+    
 
     // Calculate total pages and the books to display for the current page
     const totalPages = Math.ceil(allBooks.length / booksPerPage);
@@ -55,6 +59,7 @@ function BookHome() {
 
     return (
         <>
+        
             <div className="container mt-5">
                 <div className="row">
                     <div className="col-md-2"></div>
